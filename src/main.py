@@ -31,7 +31,7 @@ from utils.plot import plot_cluster_data
 
 
 if __name__ == "__main__":
-    output_path = make_dir(os.path.join("/", "home", "results"))
+    output_path = make_dir(os.path.join("/", "home", "clustering_benchmarking", "results"))
     seed = 42
     random.seed(seed)
     np.random.seed(seed)
